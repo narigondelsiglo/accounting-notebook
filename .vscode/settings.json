@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": false,
+  "eslint.nodePath": "./node_modules",
+  "eslint.workingDirectories": ["./assets"],
+  "eslint.validate": ["javascript", "html", "json"],
+  "editor.formatOnSaveTimeout": 8000,
+  "editor.codeActionsOnSaveTimeout": 8000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.eslintIntegration": true
+}
