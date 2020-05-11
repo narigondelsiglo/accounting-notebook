@@ -28,30 +28,6 @@
   color: #61dafb;
 }
 
-.TransactionTitle-credit {
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  background-color: green;
-}
-
-.TransactionDetails-credit {
-  color: green;
-}
-
-.TransactionTitle-debit {
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  background-color: red;
-}
-
-.TransactionDetails-debit {
-  color: red;
-}
-
-
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
