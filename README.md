@@ -18,6 +18,14 @@ Install dependencies and launch both frontend and backend
 ./launch.sh
 ```
 
+### With Docker
+
+Install dependencies and launch both frontend and backend
+```shell
+docker run -p 5000:5000 -p 3000:3000 --name accounting-notebook -d accounting-notebook
+```
+
+
 
 ## Architecture description
 React frontend connection listens on port 3000
