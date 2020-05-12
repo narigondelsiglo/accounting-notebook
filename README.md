@@ -22,6 +22,7 @@ Install dependencies and launch both frontend and backend
 
 Install dependencies and launch both frontend and backend
 ```shell
+docker build -t accounting-notebook .
 docker run -p 5000:5000 -p 3000:3000 --name accounting-notebook -d accounting-notebook
 ```
 
