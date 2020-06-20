@@ -23,7 +23,7 @@ class TransactionsDatabase {
   insert(data) {
     this._lock = true;
 
-    if (!data || !data.type || !['debit', 'credit'].includes(data.type)) {
+    if (!data || !data.type || !['debit', 'credit'].includes(data.type) || data.amount < 0) {
       return Promise.reject(Error('400'));
     }
     if (data.type === 'debit' && this._balance - data.amount < 0) {
