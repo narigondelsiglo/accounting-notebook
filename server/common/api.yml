@@ -105,9 +105,10 @@ definitions:
           - debit
       amount:
         type: number
+        minimum: 0
         description: >-
           Transaction numeric value. Incrementing or decrementing the account
-          balance, based on the transaction type.
+          balance, based on the transaction type. Must be a positive value
   Transaction:
     type: object
     required:
